@@ -1,0 +1,38 @@
+.card-detail-container>* {
+    padding: 10px;
+
+}
+
+.magic-card {
+
+    height: 600px;
+    width: 450px;
+
+    .nametype-card {
+        height: 50px;
+        width: 100%;
+
+    }
+
+    .card-info {
+        height: 200px;
+    }
+
+    .character-pic {
+        height: 250px;
+        width: 100%;
+
+
+        img {
+            width: 430px;
+            height: 250px;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+
+    .footer-card {
+        height: 50px;
+        width: 100%;
+    }
+}
